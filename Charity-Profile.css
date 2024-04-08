@@ -108,7 +108,9 @@ header img {
 }
 
 .articles-header {
-    order: -8; /* Move the header to the top */
+    background-color: #ffffff; /* Set background color to white */
+    color: #000000; /* Set text color to black */
+    padding: 10px; /* Add padding for better spacing */
 }
 
 .news-item {
