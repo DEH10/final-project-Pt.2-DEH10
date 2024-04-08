@@ -1,26 +1,31 @@
 /* Resetting default browser styles */
 html, body, header, main, footer {
     margin: 0;
-    padding: 50;
+    padding: 0;
     box-sizing: border-box;
 }
 
 /* Styling header section */
 header {
     background-color: #0074D9; /* Change to blue background color */
-    padding: 20px;
-    text-align: center;
+    padding: 40px;
+    text-align: right;
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 26px;
     color: #ffffff; /* Change to white text color */
     margin-bottom: 10px;
+    text-align: left; /* Adjusted to left alignment */
+    margin-left: 140px; /* Adding a margin to push it to the left */
 }
 
 header p {
     font-size: 18px;
     color: #ffffff; /* Change to white text color */
+    margin-bottom: 30px;
+    text-align: left; /* Adjusted to left alignment */
+    margin-left: 145px; /* Adding a margin to push it to the left */
 }
 
 /* Styling main content section */
@@ -73,10 +78,10 @@ section {
     display: flex; /* Using Flexbox for layout */
     flex-direction: row-reverse; /* Reverse the order of items */
     align-items: center; /* Aligning items vertically */
+    justify-content: space-between; /* Or any other relevant value */
 }
 
 #donations-content {
-    flex: 2; /* Take up remaining space */
     text-align: center; /* Center align content */
     margin-left: 10px; /* Add margin to separate content from logo */
 }
@@ -85,6 +90,7 @@ section {
     display: flex;
     flex-direction: column; /* Arrange divs vertically */
     align-items: flex-start; /* Align divs to the left */
+    gap: 10px; /* Add space between divs */
 }
 
 .box {
@@ -94,22 +100,25 @@ section {
     border-radius: 5px; /* Adjust border radius to match the smaller boxes */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px; /* Adjust spacing between divs */
+    width: 100px; /* Adjust width to make the boxes smaller */
+    height: 100px; /* Adjust height to make the boxes smaller */
 }
 
 .logo-container {
     text-align: right; /* Center align logo */
-    margin-right: 10px; /* Add margin to separate logo from content */
+    margin-right: auto; /* Add margin to separate logo from content */
+    flex: 1;
 }
 
 .logo-container img {
-    max-width: 10px; /* Adjust the maximum width of the logo */
+    max-width: 100px; /* Adjust the maximum width of the logo */
     height: auto;/* Setting image height to auto */
 }
 
 
 /* Styling expect great things section */
 #expect-great-things {
-    background-color: #f0f0f0; /* Setting background color */
+    background-color: #0074D9; /* Change to blue background color */
     padding: 40px; /* Setting padding */
     text-align: center; /* Centering text */
 }
@@ -169,12 +178,12 @@ section {
 
 /* Styling news and information section */
 #news-info {
-    padding: 40px; /* Setting padding */
+    padding: 10px; /* Setting padding */
     background-color: #f9f9f9; /* Setting background color */
 }
 
 .news-item {
-    padding: 20px; /* Setting padding */
+    padding: 0px; /* Setting padding */
     background-color: #fff; /* Setting background color */
     border-radius: 10px; /* Setting border radius */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow */
@@ -182,7 +191,7 @@ section {
 }
 
 .news-item h3 {
-    font-size: 20px; /* Setting font size */
+    font-size: 15px; /* Setting font size */
     color: #333; /* Setting text color */
     margin-bottom: 10px; /* Setting margin bottom */
 }
