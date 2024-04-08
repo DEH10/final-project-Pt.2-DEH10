@@ -134,11 +134,9 @@ header img {
 
 /* Footer styles */
 footer {
-    background-color: #3c9bd7; 
+    background-color: #3c9bd7;
     color: #fff;
-    display: flex;
-    justify-content: space-between; /* Distribute content evenly */
-    align-items: center; /* Align items vertically */
+    text-align: center;
     padding: 20px;
     position: relative;
     bottom: -100px; /* Initially hide the footer */
@@ -149,22 +147,5 @@ footer {
 /* Show the footer when it's at the end of the content */
 body.show-footer footer {
     bottom: 0;
-}
-
-.footer-left,
-.footer-right {
-    flex: 1; /* Equal width for both sides */
-}
-
-.footer-left {
-    text-align: left;
-}
-
-.footer-right {
-    text-align: right;
-}
-
-.footer-content {
-    margin: 0 60px; /* Add space between content */
 }
 
