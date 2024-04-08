@@ -32,8 +32,8 @@ header {
 /* Navigation button styles */
 .navigation-buttons {
     position: absolute;
-    top: 10px;
-    right: 90px;
+    top: 0px;
+    right: 70px; /* Adjust the right position */
 }
 
 .navigation-buttons button {
@@ -42,7 +42,7 @@ header {
     color: #0c0b0b;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 40px; /* Adjust margin-right */
+    margin-right: 5px; /* Adjust margin-right */
 }
 
 /* Background Image of City Buildings */
