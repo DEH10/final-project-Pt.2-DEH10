@@ -8,8 +8,9 @@ html, body, header, main, footer {
 /* Styling header section */
 header {
     background-color: #0074D9; /* Change to blue background color */
-    padding: 40px;
+    padding: 90px;
     text-align: right;
+    position: relative; /* Positioning for absolute centering of buttons */
 }
 
 header h1 {
@@ -28,6 +29,19 @@ header p {
     margin-left: 145px; /* Adding a margin to push it to the left */
 }
 
+/* Navigation Buttons Container */
+.navigation-buttons {
+    position: absolute; /* Positioning relative to the header */
+    bottom: 20px; /* Distance from the bottom */
+    left: 50%; /* Move the container to the center horizontally */
+    transform: translateX(-50%); /* Center the container */
+}
+
+/* Styling the buttons */
+.navigation-buttons button {
+    margin: 0 10px; /* Add spacing between buttons */
+}
+
 /* Styling main content section */
 main {
     padding: 40px;
@@ -44,6 +58,7 @@ h2 {
 section {
     margin-bottom: 40px;
 }
+
 
 /* Styling service section */
 #empowering {
@@ -82,8 +97,8 @@ section {
 }
 
 #donations-content {
-    text-align: center; /* Center align content */
     margin-left: 10px; /* Add margin to separate content from logo */
+    padding: 20px; /* Setting padding */
 }
 
 .small-rectangle-boxes {
@@ -119,13 +134,14 @@ section {
 /* Styling expect great things section */
 #expect-great-things {
     background-color: #0074D9; /* Change to blue background color */
-    padding: 40px; /* Setting padding */
+    padding: 10px; /* Setting padding */
     text-align: center; /* Centering text */
 }
 
 .three-divs {
     display: flex; /* Using Flexbox for layout */
-    justify-content: space-between; /* Distributing items evenly */
+    justify-content: center; /* Centering items horizontally */
+    gap: 100px; /* Add space between items */
 }
 
 .user-div {
@@ -151,7 +167,7 @@ section {
     display: flex; /* Using Flexbox for layout */
     justify-content: center; /* Centering items horizontally */
     flex-wrap: wrap; /* Allowing items to wrap */
-    margin-top: 30px; /* Setting margin top */
+    margin-top: 10px; /* Setting margin top */
 }
 
 .logo-div {
