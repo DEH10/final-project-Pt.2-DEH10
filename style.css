@@ -194,6 +194,7 @@ section {
     grid-template-columns: repeat(2, auto); /* Set columns to auto width */
     gap: 10px; /* Reduce the gap between items */
     justify-content: start; /* Align grid to the left */
+    margin-left: 150px; /* Add left margin to offset towards the center */
 }
 
 .additional-divs .empowering,
@@ -211,6 +212,7 @@ section {
     width: 60px; /* Set image width */
     height: 60px; /* Set image height */
     margin-bottom: 10px; /* Set margin bottom */
+    
 }
 
 .additional-divs h3 {
@@ -224,9 +226,10 @@ section {
     color: #666; /* Set text color */
 }
 .logo-placeholder {
-    margin-top: -300px; /* Add margin to separate from additional divs */
+    margin-top: -400px; /* Add margin to separate from additional divs */
     margin-left: 600px; /* Align to the right */
-    margin-bottom: 300px; /* Set margin bottom */
+    margin-bottom: 400px; /* Set margin bottom */
+    margin-left: 750px; /* Add left margin to offset towards the center */
 }
 
 /* Styling expect great things section */
