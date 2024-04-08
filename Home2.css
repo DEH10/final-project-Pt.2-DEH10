@@ -392,7 +392,7 @@ footer a img {
 .navigation-buttons {
     position: absolute; /* Keep the div fixed in its position */
     top: 315px; /* Align the div 100px below the top of the viewport */
-    left: 460px; /* Align the div horizontally to the center */
+    left: 490px; /* Align the div horizontally to the center */
     transform: translateX(-50%); /* Center the div horizontally */
     z-index: 999; /* Ensure it's above other content */
     text-align: center; /* Center align the text */
