@@ -103,14 +103,15 @@ section {
 #donations h2 {
     color: #000; /* Set header text color to black */
 }
-
 #donations {
     background-color: #f0f0f0; /* Setting background color */
+    color: #0b0b0b; /* Change to white text color */
     padding: 40px; /* Adjust padding */
     text-align: center; /* Center align text */
 }
 
 #donations-content {
+  color: #0a0909; /* Change to white text color */
     max-width: 600px; /* Adjust maximum width */
     margin: 0 auto; /* Center align */
 }
@@ -159,13 +160,21 @@ section {
 }
 
 /* Styling a world of possibilities section */
-#A-world-of-possibilities {
-    background-color: #f9f9f9; /* Set background color */
+
+#A-world-of-possibilities .A-world-of-possibilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to the left */
+    background-color: #ffffff; /* Set background color to white */
+    color: #000000; /* Set text color to black */
     padding: 40px; /* Set padding */
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Arrange children vertically */
-    align-items: flex-end; /* Align items to the end horizontally */
 }
+
+#A-world-of-possibilities .A-world-of-possibilities h2,
+#A-world-of-possibilities .A-world-of-possibilities p {
+    color: #000000; /* Set text color to black */
+}
+
 
 #A-world-of-possibilities h2 {
     font-size: 24px; /* Set font size */
