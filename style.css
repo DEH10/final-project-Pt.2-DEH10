@@ -286,30 +286,41 @@ section {
     margin-top: 30px; /* Setting margin top */
 }
 
-
-/* Styling news and information section */
+/* Related Articles Section styles */
 #news-info {
-    padding: 10px; /* Setting padding */
-    background-color: #f9f9f9; /* Setting background color */
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr)); /* Adjust the min and max width */
+    gap: 5px; /* Add gap between grid items */
+    grid-auto-rows: auto; /* Set the height of the rows to auto */
+    margin-top: 20px; /* Adjust the margin-top to create space between this section and the header */
+}
+
+.articles-header {
+    order: -8; /* Move the header to the top */
 }
 
 .news-item {
-    padding: 0px; /* Setting padding */
-    background-color: #fff; /* Setting background color */
-    border-radius: 10px; /* Setting border radius */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow */
-    margin-bottom: 20px; /* Setting margin bottom */
+    background-color: #f9f9f9; /* Background color for each box */
+    padding: 20px;
+    border-radius: 5px; /* Add border radius for rounded corners */
 }
 
 .news-item h3 {
-    font-size: 15px; /* Setting font size */
-    color: #333; /* Setting text color */
-    margin-bottom: 10px; /* Setting margin bottom */
+    margin-bottom: 10px;
 }
 
 .news-item p {
-    font-size: 16px; /* Setting font size */
-    color: #666; /* Setting text color */
+    margin-bottom: 5px;
+}
+
+.news-item img {
+    max-width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+    border-radius: 5px; /* Add border radius for rounded corners */
 }
 
 /* Styling footer section */
