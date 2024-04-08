@@ -395,6 +395,8 @@ footer a img {
     left: 460px; /* Align the div horizontally to the center */
     transform: translateX(-50%); /* Center the div horizontally */
     z-index: 999; /* Ensure it's above other content */
+    text-align: center; /* Center align the text */
+
 }
 
 .navigation-buttons button {
