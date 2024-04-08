@@ -117,3 +117,23 @@ footer {
 body.show-footer footer {
     bottom: 0;
 }
+
+/* Search Button */
+#search-button {
+    position: absolute; /* Absolute position */
+    top: 0px; /* Distance from the top */
+    right: 3px; /* Distance from the right */
+    background-color: #89CFF0; /* Baby blue background */
+    color: #fff; /* White text */
+    padding: 5px 7px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
+    border: none; /* No border */
+    border-radius: 3px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    z-index: 999; /* Ensure it's above other content */
+}
+
+/* Optional hover effect */
+#search-button:hover {
+    background-color: #5DADE2; /* Darker shade of blue on hover */
+}
