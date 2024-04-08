@@ -154,14 +154,85 @@ section {
     cursor: pointer; /* Set cursor to pointer */
 }
 
+/* Styling a world of possibilities section */
+#A-world-of-possibilities {
+    background-color: #f9f9f9; /* Set background color */
+    padding: 40px; /* Set padding */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange children vertically */
+    align-items: flex-end; /* Align items to the end horizontally */
+}
+
+#A-world-of-possibilities h2 {
+    font-size: 24px; /* Set font size */
+    color: #faf8f8; /* Set text color */
+    margin-bottom: 20px; /* Set margin bottom */
+}
+
+#A-world-of-possibilities p {
+    font-size: 16px; /* Set font size */
+    color: #666; /* Set text color */
+    margin-bottom: 20px; /* Set margin bottom */
+    text-align: flex-end; /* Centering text */
+}
+
+.additional-divs {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, auto); /* Set columns to auto width */
+    gap: 10px; /* Reduce the gap between items */
+    justify-content: start; /* Align grid to the left */
+}
+
+.additional-divs .empowering,
+.additional-divs .assured,
+.additional-divs .steadfast,
+.additional-divs .user-friendly {
+    width: 150px; /* Set width for each div */
+    padding: 10px; /* Set padding */
+    background-color: #ffffff; /* Set background color */
+    border-radius: 10px; /* Set border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.additional-divs img {
+    width: 60px; /* Set image width */
+    height: 60px; /* Set image height */
+    margin-bottom: 10px; /* Set margin bottom */
+}
+
+.additional-divs h3 {
+    font-size: 14px; /* Set font size */
+    color: #333; /* Set text color */
+    margin-bottom: 5px; /* Set margin bottom */
+}
+
+.additional-divs p {
+    font-size: 12px; /* Set font size */
+    color: #666; /* Set text color */
+}
+.logo-placeholder {
+    margin-top: -300px; /* Add margin to separate from additional divs */
+    margin-left: 600px; /* Align to the right */
+    margin-bottom: 300px; /* Set margin bottom */
+}
+
 /* Styling expect great things section */
 #expect-great-things {
-    background-color: #0074D9; /* Change to blue background color */
+    background-color: #bfefff; /* Light baby blue background color */
     padding: 10px; /* Setting padding */
     text-align: center; /* Centering text */
 }
 
+#expect-great-things h2 {
+    color: #0b3d91; /* Darker shade of baby blue for header */
+}
+
+#expect-great-things p {
+    color: darkred; /* Dark red color for the paragraph */
+}
+
 .three-divs {
+    background-color: #f8f8f9ef; /* Baby blue background color */
     display: flex; /* Using Flexbox for layout */
     justify-content: center; /* Centering items horizontally */
     gap: 100px; /* Add space between items */
@@ -170,20 +241,20 @@ section {
 .user-div {
     text-align: center; /* Centering text */
     padding: 10px; /* Setting padding */
-    background-color: #fff; /* Setting background color */
+    background-color: #ffffff; /* White background color for user divs */
     border-radius: 10px; /* Setting border radius */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+    box-shadow: 0 0 10px rgba(246, 244, 244, 0.1); /* Adding box shadow */
 }
 
 .user-div h3 {
     font-size: 24px; /* Setting font size */
-    color: #333; /* Setting text color */
+    color: #28a9e0; /* Setting text color */
     margin-bottom: 10px; /* Setting margin bottom */
 }
 
 .user-div p {
     font-size: 16px; /* Setting font size */
-    color: #666; /* Setting text color */
+    color: #000; /* Setting text color to black */
 }
 
 .cooperative-enterprise-logos {
@@ -208,12 +279,13 @@ section {
     padding: 10px 20px; /* Setting padding */
     font-size: 14px; /* Setting font size */
     color: #fff; /* Setting text color */
-    background-color: #333; /* Setting background color */
+    background-color: #2cafe8; /* Setting background color */
     border: none; /* Removing border */
     border-radius: 5px; /* Setting border radius */
     cursor: pointer; /* Setting cursor to pointer */
     margin-top: 30px; /* Setting margin top */
 }
+
 
 /* Styling news and information section */
 #news-info {
@@ -242,7 +314,7 @@ section {
 
 /* Styling footer section */
 footer {
-    background-color: #333; /* Setting background color */
+    background-color: #0074D9; /* Set background color */
     color: #fff; /* Setting text color */
     padding: 40px; /* Setting padding */
     text-align: center; /* Centering text */
