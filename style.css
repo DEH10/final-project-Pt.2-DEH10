@@ -7,7 +7,7 @@ html, body, header, main, footer {
 
 /* Styling header section */
 header {
-    background-color: #0074D9; /* Change to blue background color */
+    background-color: #48a2f1; /* Change to blue background color */
     padding: 90px;
     text-align: right;
     position: relative; /* Positioning for absolute centering of buttons */
