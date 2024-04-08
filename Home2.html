@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home2</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="src/Home2.css">
 </head>
 <body>
 <!-- Navigation Buttons -->
-        <button onclick="window.location.href='Home2.html'">Home</button>
-        <button onclick="window.location.href='About.html'">About Us</button>
-        <button onclick="window.location.href='About.html'">Contact</button>
+        <div class="navigation-buttons">
+    <button onclick="window.location.href='src/Home2.html'">Home</button>
+    <button onclick="window.location.href='src/About.html'">About Us</button>
+    <button onclick="window.location.href='src/About.html'">Contact</button>
+</div>
     <!-- Search button -->
     <button id="search-button">Search</button>
     
     <!-- Header Section -->
     <header>
     
-        <h1>HelpHub Charity</h1>
-        <p>Like threads drawn from the central core of a belt, our platform seamlessly integrates materials, services, and support, powered by the currents of air and electricity, metaphorically representing the collective energy and connectivity of our community. </p>
-		
+  <div class="header-content">
+    <h1>HelpHub Charity</h1>
+    <p>Like threads drawn from the central core of a belt, our platform seamlessly integrates materials, services, and support, powered by the currents of air and electricity, metaphorically representing the collective energy and connectivity of our community.</p>
+  </div>
+		</header>
 		<!-- App Store Buttons -->
-        <a href="https://apps.apple.com/us/app/your-app-name/id123456789" target="_blank">
+        <div class="app-store-buttons">
+    <!-- App Store Button -->
+    <a href="https://apps.apple.com/us/app/your-app-name/id123456789" target="_blank">
         <img src="https://app.gemoo.com/share/image-annotation/635772218191355904?codeId=vzR0aeO9KX3nr&origin=imageurlgenerator&card=635772217419603968" alt="Use the App Store">
-        <a href="https://play.google.com/store/apps/details?id=com.yourapp.package" target="_blank">
+    </a>
+    
+    <!-- Google Play Button -->
+    <a href="https://play.google.com/store/apps/details?id=com.yourapp.package" target="_blank">
         <img src="https://app.gemoo.com/share/image-annotation/635777208884604928?codeId=MllbanEJo3KOb&origin=imageurlgenerator&card=635777208158990336" alt="Get it on Google Play">
-        </a>
+    </a>
+</div>
         
     </header>
 
