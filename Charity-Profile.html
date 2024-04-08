@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Charity Profile</title>
     <link rel="stylesheet" type="text/css" href="Charity-Profile.css">
 	
@@ -12,39 +13,44 @@
     <!-- Header Section -->
     <header>
 	<!-- Navigation Buttons -->
-        <button onclick="window.location.href='index.html'">Home</button>
-        <button onclick="window.location.href='About.html'">About Us</button>
-        <button onclick="window.location.href='About.html'">Contact</button>
+        <div class="navigation-buttons">
+            <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='About.html'">About Us</button>
+            <button onclick="window.location.href='About.html'">Contact</button>
+        </div>
 		
     <!-- Background Image of City Buildings -->
-    <img src="city-buildings.jpg" alt="City Buildings" style="width: 1440px; height: 500px; position: absolute; top: 0; left: 0; z-index: -1;">
+    <img src="https://via.placeholder.com/150" alt="City Buildings" style="width: 1440px; height: 500px; position: absolute; top: 0; left: 0; z-index: -1;">
     
     <!-- Charity Profile Description Section -->
     <section id="CharityProfileDescription">
+    <div id="charity-description">
         <!-- Centered Date Year Stamp -->
         <p style="text-align: center;">Date: March 30, 2024</p>
-	    
+        
         <h1>Charity Profile Description</h1> 
-		
-	<button onclick="window.location.href='Volunteer-Info.html'" style="float: right;">Volunteer Now</button>
-		
+        
+        <button onclick="window.location.href='volunteer-info.html'" style="float: right;">Volunteer Now</button>
+        
         <p>Discover the essence of each charity profile on HelpHub—a platform dedicated to facilitating transformative giving experiences where kindness flourishes and lives are profoundly impacted for the better. As you navigate through our virtual landscape, expect to witness the tangible results of your generosity, igniting a sense of hope and empowerment in communities worldwide.
 
-At HelpHub, we transcend geographical boundaries to envision a future of giving that knows no limits—a future where compassion unites us in a shared mission to uplift the most vulnerable and foster a world where everyone can thrive. Through our cutting-edge technology, we streamline the giving process, ensuring that your contributions make a meaningful difference with unparalleled ease.
+        At HelpHub, we transcend geographical boundaries to envision a future of giving that knows no limits—a future where compassion unites us in a shared mission to uplift the most vulnerable and foster a world where everyone can thrive. Through our cutting-edge technology, we streamline the giving process, ensuring that your contributions make a meaningful difference with unparalleled ease.
 
-From crowdfunding campaigns to innovative donation channels, HelpHub offers a seamless and secure environment for you to support causes that resonate with your values. Whether your passion lies in education, healthcare, environmental conservation, or social justice, our platform provides a diverse range of opportunities for you to contribute to positive change.
+        From crowdfunding campaigns to innovative donation channels, HelpHub offers a seamless and secure environment for you to support causes that resonate with your values. Whether your passion lies in education, healthcare, environmental conservation, or social justice, our platform provides a diverse range of opportunities for you to contribute to positive change.
 
-Beyond the convenience of digital giving lies a deeper sense of purpose—a recognition of our interconnectedness and the collective power of our actions to shape a brighter future for generations to come. HelpHub cultivates a community of like-minded individuals, businesses, and organizations united by a shared commitment to making a meaningful difference in the world.
+        Beyond the convenience of digital giving lies a deeper sense of purpose—a recognition of our interconnectedness and the collective power of our actions to shape a brighter future for generations to come. HelpHub cultivates a community of like-minded individuals, businesses, and organizations united by a shared commitment to making a meaningful difference in the world.
 
-As you delve into the world of HelpHub, anticipate discovering a rich tapestry of inspiring stories, impactful projects, and meaningful opportunities to get involved. Together, let's embrace the journey of giving with open hearts and unwavering dedication, and join us on HelpHub to be a part of a future where kindness reigns supreme, and every act of giving creates a ripple effect of positive change. </p>
+        As you delve into the world of HelpHub, anticipate discovering a rich tapestry of inspiring stories, impactful projects, and meaningful opportunities to get involved. Together, let's embrace the journey of giving with open hearts and unwavering dedication, and join us on HelpHub to be a part of a future where kindness reigns supreme, and every act of giving creates a ripple effect of positive change. </p>
 
-<!-- Keywords -->
+        <!-- Keywords -->
         <p style="font-size: 14px;">Key words: Transformation, Empowerment, Connectivity</p>
-		
-		</section>
+    </div>
+</section>
 <!-- Related Articles -->
         <section id="news-info">
-    <h2>Related Articles</h2>
+    <div class="articles-header">
+        <h2>Related Articles</h2>
+    </div>
     <div class="news-item">
         <a href="impact_stories.html"><h3>Impact Stories: See firsthand the power of your support through inspiring impact stories</h3></a>
         <p>Date: January 1, 2024</p>
