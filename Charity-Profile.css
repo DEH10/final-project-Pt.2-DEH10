@@ -136,6 +136,22 @@ body.show-footer footer {
     margin-right: 20px;
 }
 
+/* Navigation button styles */
+.navigation-buttons {
+    position: absolute;
+    top: 0;
+    right: 80px; /* Adjust the distance from the right as needed */
+}
+
+.navigation-buttons button {
+    background-color: transparent;
+    border: none;
+    color: #000000; /* Set text color to black */
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
 /* Search Button */
 #search-button {
     position: absolute; /* Absolute position */
