@@ -14,128 +14,93 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
-    color: #000000;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
 /* Header styles */
 header {
-    background-color: #f0eaea;
+    background-color: #3c9bd7;
     color: #fff;
     padding: 20px;
     text-align: center;
-    position: relative; /* Add position relative */
-    color: #000000; /* Set text color to black */
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+header p {
+    margin-bottom: 20px;
 }
 
 /* Navigation button styles */
-.navigation-buttons {
-    position: absolute;
-    top: 20px;
-    right: 90px;
-}
-
-.navigation-buttons button {
+header button {
     background-color: transparent;
     border: none;
-    color: #0c0b0b;
+    color: #fff;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 20px; /* Adjust margin-right */
+    margin-right: 10px;
 }
 
-/* Background Image of City Buildings */
-header img {
-    max-width: 100%; /* Limit the maximum width of the image */
-    height: 20px; /* Maintain aspect ratio */
-    display: block; /* Remove extra space */
-    margin: 0 auto 20px; /* Center the image horizontally and add margin below */
-    max-height: 10px; /* Adjust the maximum height */
-}
-
-/* Charity Profile Description Section styles */
-#CharityProfileDescription {
-    position: relative; /* Change position to relative */
-    text-align: left; /* Center align the content */
-    padding: 20px; /* Adjust padding to hug the content */
-    margin: 0 auto; /* Center the box horizontally */
-    margin-top: 370px; /* Adjust margin top to move it further down */
-    border: 2px solid white; /* Add border with solid white color */
-    border-radius: 5px; /* Add border radius for rounded corners */
-    background-color: rgba(255, 255, 255, 0.892); /* Add background color with opacity */
-    max-width: fit-content; /* Set maximum width to fit the content */
-    color: #000000; /* Set text color to black */
-}
-
-#charity-description {
-    max-width: 800px; /* Set max-width to wrap the text */
-    margin: 0 auto; /* Center the section horizontally */
-    
-}
-
-#charity-description h1 {
-    margin-bottom: 20px;
-}
-
-#charity-description p {
-    margin-bottom: 20px;
-    text-align: justify; /* Justify the text for a neat appearance */
-}
-
-#charity-description button {
-    background-color: #cbc8c8;
-    border: none;
-    color: #3f1616;
-    cursor: pointer;
-    padding: 10px 20px;
-    margin-top: -50px; /* Adjust margin top to move it further down */
-}
-
-#charity-description button:hover {
-    background-color: #555;
-}
-
-
-/* Related Articles Section styles */
-#news-info {
+/* Charity List Section styles */
+#charity-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items in the center horizontally */
+    justify-content: center; /* Align items in the center vertically */
+    min-height: 100vh; /* Set a minimum height to fill the viewport */
     padding: 20px;
+}
+
+.charity-organization {
     background-color: #fff;
-    border-top: 1px solid #ccc;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr)); /* Adjust the min and max width */
-    gap: 5px; /* Add gap between grid items */
-    grid-auto-rows: auto; /* Set the height of the rows to auto */
-    margin-top: 20px; /* Adjust the margin-top to create space between this section and the header */
-    
-}
-
-.articles-header {
-    background-color: #ffffff; /* Set background color to white */
-    color: #000000; /* Set text color to black */
-    padding: 10px; /* Add padding for better spacing */
-}
-
-.news-item {
-    background-color: #f9f9f9; /* Background color for each box */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px auto; /* Center the divs horizontally */
     padding: 20px;
-    border-radius: 5px; /* Add border radius for rounded corners */
+    text-align: center;
+    width: 300px;
 }
 
-.news-item h3 {
+.charity-organization img {
+    border-radius: 50%;
     margin-bottom: 10px;
 }
 
-.news-item p {
-    margin-bottom: 5px;
+.charity-organization button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 20px;
 }
 
-.news-item img {
-    max-width: 100%; /* Make the image fill its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove extra space below image */
-    border-radius: 5px; /* Add border radius for rounded corners */
+.charity-organization button:hover {
+    background-color: #555;
 }
+
+/* Learn More Button styles */
+.learn-more-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.learn-more-button button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.learn-more-button button:hover {
+    background-color: #555;
+}
+
 
 /* Footer styles */
 footer {
@@ -152,6 +117,23 @@ footer {
 /* Show the footer when it's at the end of the content */
 body.show-footer footer {
     bottom: 0;
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+    position: absolute;
+    top: 0;
+    right: 60px; /* Adjust the distance from the right as needed */
+    z-index: 999;
+}
+
+.navigation-buttons button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
 }
 
 /* Search Button */
