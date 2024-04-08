@@ -1,0 +1,221 @@
+/* Resetting default browser styles */
+html, body, header, main, footer {
+    margin: 0;
+    padding: 50;
+    box-sizing: border-box;
+}
+
+/* Styling header section */
+header {
+    background-color: #0074D9; /* Change to blue background color */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #ffffff; /* Change to white text color */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #ffffff; /* Change to white text color */
+}
+
+/* Styling main content section */
+main {
+    padding: 40px;
+}
+
+/* Styling section headings */
+h2 {
+    font-size: 24px;
+    color: #ffffff; /* Change to white text color */
+    margin-bottom: 20px;
+}
+
+/* Styling each section */
+section {
+    margin-bottom: 40px;
+}
+
+/* Styling service section */
+#empowering {
+    background-color: #f9f9f9;
+    padding: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
+    gap: 20px;
+}
+
+.service-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Styling donations section */
+#donations {
+    background-color: #f0f0f0; /* Setting background color */
+    padding: 5px; /* Setting padding */
+    display: flex; /* Using Flexbox for layout */
+    flex-direction: row-reverse; /* Reverse the order of items */
+    align-items: center; /* Aligning items vertically */
+}
+
+#donations-content {
+    flex: 2; /* Take up remaining space */
+    text-align: center; /* Center align content */
+    margin-left: 10px; /* Add margin to separate content from logo */
+}
+
+.small-rectangle-boxes {
+    display: flex;
+    flex-direction: column; /* Arrange divs vertically */
+    align-items: flex-start; /* Align divs to the left */
+}
+
+.box {
+    text-align: left;
+    padding: 5px; /* Adjust padding to make the boxes smaller */
+    background-color: #fff;
+    border-radius: 5px; /* Adjust border radius to match the smaller boxes */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Adjust spacing between divs */
+}
+
+.logo-container {
+    text-align: right; /* Center align logo */
+    margin-right: 10px; /* Add margin to separate logo from content */
+}
+
+.logo-container img {
+    max-width: 10px; /* Adjust the maximum width of the logo */
+    height: auto;/* Setting image height to auto */
+}
+
+
+/* Styling expect great things section */
+#expect-great-things {
+    background-color: #f0f0f0; /* Setting background color */
+    padding: 40px; /* Setting padding */
+    text-align: center; /* Centering text */
+}
+
+.three-divs {
+    display: flex; /* Using Flexbox for layout */
+    justify-content: space-between; /* Distributing items evenly */
+}
+
+.user-div {
+    text-align: center; /* Centering text */
+    padding: 10px; /* Setting padding */
+    background-color: #fff; /* Setting background color */
+    border-radius: 10px; /* Setting border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+}
+
+.user-div h3 {
+    font-size: 24px; /* Setting font size */
+    color: #333; /* Setting text color */
+    margin-bottom: 10px; /* Setting margin bottom */
+}
+
+.user-div p {
+    font-size: 16px; /* Setting font size */
+    color: #666; /* Setting text color */
+}
+
+.cooperative-enterprise-logos {
+    display: flex; /* Using Flexbox for layout */
+    justify-content: center; /* Centering items horizontally */
+    flex-wrap: wrap; /* Allowing items to wrap */
+    margin-top: 30px; /* Setting margin top */
+}
+
+.logo-div {
+    flex-basis: calc(20% - 20px); /* Setting width of each logo div */
+    padding: 10px; /* Setting padding */
+}
+
+.logo-div img {
+    width: 100%; /* Making images fill the container */
+    height: auto; /* Setting image height to auto */
+}
+
+.contact-us-button {
+    display: inline-block; /* Making button inline block */
+    padding: 10px 20px; /* Setting padding */
+    font-size: 14px; /* Setting font size */
+    color: #fff; /* Setting text color */
+    background-color: #333; /* Setting background color */
+    border: none; /* Removing border */
+    border-radius: 5px; /* Setting border radius */
+    cursor: pointer; /* Setting cursor to pointer */
+    margin-top: 30px; /* Setting margin top */
+}
+
+/* Styling news and information section */
+#news-info {
+    padding: 40px; /* Setting padding */
+    background-color: #f9f9f9; /* Setting background color */
+}
+
+.news-item {
+    padding: 20px; /* Setting padding */
+    background-color: #fff; /* Setting background color */
+    border-radius: 10px; /* Setting border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+    margin-bottom: 20px; /* Setting margin bottom */
+}
+
+.news-item h3 {
+    font-size: 20px; /* Setting font size */
+    color: #333; /* Setting text color */
+    margin-bottom: 10px; /* Setting margin bottom */
+}
+
+.news-item p {
+    font-size: 16px; /* Setting font size */
+    color: #666; /* Setting text color */
+}
+
+/* Styling footer section */
+footer {
+    background-color: #333; /* Setting background color */
+    color: #fff; /* Setting text color */
+    padding: 40px; /* Setting padding */
+    text-align: center; /* Centering text */
+}
+
+footer p {
+    font-size: 16px; /* Setting font size */
+    margin-bottom: 10px; /* Setting margin bottom */
+}
+
+footer h1 {
+    font-size: 28px; /* Setting font size */
+    margin-bottom: 20px; /* Setting margin bottom */
+}
+
+footer a img {
+    display: inline-block; /* Making images inline block */
+    margin: 0 10px; /* Setting margin */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
