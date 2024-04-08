@@ -23,7 +23,7 @@ body {
 header {
     background-color: #368dc4;
     color: #fff;
-    padding: 20px;
+   padding: 30px 40px 60px;  /* Increase padding-top to move content down */
     text-align: center;
 }
 
@@ -42,7 +42,8 @@ header button {
     color: #fff;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 10px;
+    margin-left: 100px; /* Add margin to create space between buttons */
+    float: flex-end; /* Align buttons to the right */
 }
 
 /* Image styles */
@@ -114,7 +115,6 @@ footer {
 body.show-footer footer {
     bottom: 0;
 }
-
 /* Search Button */
 #search-button {
     position: absolute; /* Absolute position */
