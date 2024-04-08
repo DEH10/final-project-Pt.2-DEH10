@@ -137,24 +137,8 @@ header img {
     border-radius: 5px; /* Add border radius for rounded corners */
 }
 
-/* Search Button */
-#search-button {
-    position: fixed; /* Fixed position */
-    top: 20px; /* Distance from the top */
-    right: 20px; /* Distance from the right */
-    background-color: #89CFF0; /* Baby blue background */
-    color: #fff; /* White text */
-    padding: 10px 20px; /* Padding */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    z-index: 999; /* Ensure it's above other content */
-}
 
-/* Optional hover effect */
-#search-button:hover {
-    background-color: #5DADE2; /* Darker shade of blue on hover */
-}
+
 /* Footer styles */
 footer {
     background-color: #3c9bd7;
