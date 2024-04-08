@@ -24,14 +24,14 @@ header h1 {
 header p {
     font-size: 18px;
     color: #ffffff; /* Change to white text color */
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: left; /* Adjusted to left alignment */
     margin-left: 145px; /* Adding a margin to push it to the left */
 }
 
 /* Navigation Buttons Container */
 .navigation-buttons {
-    position: absolute; /* Positioning relative to the header */
+    position: relative; /* Positioning relative to the header */
     bottom: 20px; /* Distance from the bottom */
     left: 50%; /* Move the container to the center horizontally */
     transform: translateX(-50%); /* Center the container */
@@ -39,6 +39,19 @@ header p {
 
 /* Styling the buttons */
 .navigation-buttons button {
+    margin: 0 10px; /* Add spacing between buttons */
+}
+
+/* Additional Navigation Buttons Container */
+.additional-navigation-buttons {
+    position: absolute; /* Positioning relative to the header */
+    bottom: 20px; /* Distance from the bottom */
+    right: 50%; /* Move the container to the center horizontally */
+    transform: translateX(50%); /* Center the container */
+}
+
+/* Styling the additional buttons */
+.additional-navigation-buttons button {
     margin: 0 10px; /* Add spacing between buttons */
 }
 
@@ -89,47 +102,57 @@ section {
 /* Styling donations section */
 #donations {
     background-color: #f0f0f0; /* Setting background color */
-    padding: 5px; /* Setting padding */
-    display: flex; /* Using Flexbox for layout */
-    flex-direction: row-reverse; /* Reverse the order of items */
-    align-items: center; /* Aligning items vertically */
-    justify-content: space-between; /* Or any other relevant value */
+    padding: 40px; /* Adjust padding */
+    text-align: center; /* Center align text */
 }
 
 #donations-content {
-    margin-left: 10px; /* Add margin to separate content from logo */
-    padding: 20px; /* Setting padding */
+    max-width: 600px; /* Adjust maximum width */
+    margin: 0 auto; /* Center align */
+}
+
+.paragraph {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between paragraph and image */
+    align-items: flex-start; /* Align items to the start */
+    margin-bottom: 40px; /* Adjust margin */
+}
+
+.paragraph p {
+    flex: 1; /* Allow paragraph to grow */
+    margin-right: 20px; /* Adjust margin */
+}
+
+.paragraph img {
+    max-width: 300px; /* Adjust maximum width */
 }
 
 .small-rectangle-boxes {
     display: flex;
     flex-direction: column; /* Arrange divs vertically */
-    align-items: flex-start; /* Align divs to the left */
-    gap: 10px; /* Add space between divs */
+    align-items: flex-start; /* Align divs horizontally */
+    gap: 20px; /* Add space between divs */
+    margin-left: 90px; /* Add left margin */
 }
 
-.box {
-    text-align: left;
-    padding: 5px; /* Adjust padding to make the boxes smaller */
-    background-color: #fff;
-    border-radius: 5px; /* Adjust border radius to match the smaller boxes */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px; /* Adjust spacing between divs */
-    width: 100px; /* Adjust width to make the boxes smaller */
-    height: 100px; /* Adjust height to make the boxes smaller */
+.Rectangle {
+    text-align: center; /* Center align text */
 }
 
-.logo-container {
-    text-align: right; /* Center align logo */
-    margin-right: auto; /* Add margin to separate logo from content */
-    flex: 1;
+.Rectangle img {
+    max-width: 100px; /* Adjust maximum width */
+    height: auto; /* Set image height to auto */
 }
 
-.logo-container img {
-    max-width: 100px; /* Adjust the maximum width of the logo */
-    height: auto;/* Setting image height to auto */
+.Rectangle button {
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 16px; /* Adjust font size */
+    color: #fff; /* Set text color */
+    background-color: #0074D9; /* Set background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Apply border radius */
+    cursor: pointer; /* Set cursor to pointer */
 }
-
 
 /* Styling expect great things section */
 #expect-great-things {
