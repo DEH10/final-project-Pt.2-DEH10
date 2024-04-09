@@ -321,6 +321,9 @@ section {
     grid-auto-rows: auto; /* Set the height of the rows to auto */
     margin-top: 20px; /* Adjust the margin-top to create space between this section and the header */
 }
+#news-info h2 {
+    color: black;
+}
 
 .articles-header {
     order: -8; /* Move the header to the top */
