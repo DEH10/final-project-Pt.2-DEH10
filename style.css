@@ -157,7 +157,7 @@ section {
     display: flex;
     flex-direction: column; /* Arrange divs vertically */
     align-items: flex-start; /* Align divs horizontally */
-    gap: 20px; /* Add space between divs */
+    gap: 15px; /* Add space between divs */
     margin-left: 90px; /* Add left margin */
 }
 
