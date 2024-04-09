@@ -148,6 +148,7 @@ section {
 
 #donations-content .paragraph img {
     max-width: 100px; /* Adjust maximum width */
+    height: 200px; /* Set image height to auto */
     margin-right: 20px; /* Adjust margin */
     margin-top: 20px; /* Move the image up by adjusting the top margin */
 }
