@@ -421,7 +421,7 @@ footer a img {
 /* App Store and Google Play Buttons Container */
 .app-store-buttons {
     position: absolute; /* Position relative to the header */
-    top: 350px; /* Distance from the top */
+    top: 400px; /* Distance from the top */
     left: 240px; /* Distance from the left */
     z-index: 999; /* Ensure it's above other content */
 }
