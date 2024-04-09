@@ -7,7 +7,7 @@ html, body, header, main, footer {
 
 /* Styling header section */
 header {
-    background-color: #48a2f1; /* Change to blue background color */
+    background-color: #1b5785fe; /* Change to blue background color */
     padding: 90px;
     text-align: right;
     position: relative; /* Positioning for absolute centering of buttons */
@@ -21,18 +21,36 @@ header h1 {
     margin-left: 140px; /* Adding a margin to push it to the left */
 }
 
+.box-container {
+  background-color: #333; /* Change to desired background color */
+  padding: 70px; /* Adjust padding as needed */
+}
+
 header p {
-    font-size: 18px;
-    color: #ffffff; /* Change to white text color */
-    margin-bottom: 10px;
-    text-align: left; /* Adjusted to left alignment */
-    margin-left: 145px; /* Adding a margin to push it to the left */
+  font-size: 28px;
+  color: #ffffff; /* Change to white text color */
+  margin-bottom: 1px;
+  text-align: left; /* Adjusted to left alignment */
+  margin-left: 145px; /* Adding a margin to push it to the left */
+  margin-right: 680px; /* Adjust margin */
+  
+}
+.logo-container {
+    position: relative;
+    top: -200px; /* Adjust as needed to move it up */
+    left: 0px; /* Adjust as needed to move it horizontally */
+    margin-right: 60px; /* Adjust margin */
+}
+
+.logo-container img {
+    width: 350px; /* Adjust the width to make it wider */
+    height: 650px; /* Adjust the height to make it taller */
 }
 
 /* Navigation Buttons Container */
 .navigation-buttons {
     position: relative; /* Positioning relative to the header */
-    bottom: 20px; /* Distance from the bottom */
+    bottom: 5px; /* Distance from the bottom */
     left: 50%; /* Move the container to the center horizontally */
     transform: translateX(-50%); /* Center the container */
 }
@@ -118,9 +136,9 @@ section {
 
 .paragraph {
     display: flex; /* Use flexbox */
-    justify-content: space-between; /* Space between paragraph and image */
+    justify-content: center; /* Center content horizontally */
     align-items: flex-start; /* Align items to the start */
-    margin-bottom: 40px; /* Adjust margin */
+    margin-bottom: 20px; /* Decrease margin */
 }
 
 .paragraph p {
@@ -128,9 +146,12 @@ section {
     margin-right: 20px; /* Adjust margin */
 }
 
-.paragraph img {
-    max-width: 300px; /* Adjust maximum width */
+#donations-content .paragraph img {
+    max-width: 100px; /* Adjust maximum width */
+    margin-right: 20px; /* Adjust margin */
+    margin-top: -20px; /* Move the image up by adjusting the top margin */
 }
+
 
 .small-rectangle-boxes {
     display: flex;
@@ -383,21 +404,25 @@ footer a img {
 
 .navigation-buttons {
     position: absolute; /* Keep the div fixed in its position */
-    top: 450px; /* Align the div 100px below the top of the viewport */
-    left: 330px; /* Align the div horizontally to the center */
+    top: 850px; /* Align the div 100px below the top of the viewport */
+    left: 530px; /* Align the div horizontally to the center */
     transform: translateX(-50%); /* Center the div horizontally */
     z-index: 999; /* Ensure it's above other content */
 }
 
 .navigation-buttons button {
     margin: 0 10px; /* Add spacing between buttons */
+    border: none; /* Remove borders */
+    color: #000; /* Set text color to black */
+    font-weight: bold; /* Set font weight to bold */
+    background-color: transparent; /* Remove background color */
 }
 
-/* App Store Buttons */
+/* App Store and Google Play Buttons Container */
 .app-store-buttons {
     position: absolute; /* Position relative to the header */
-    top: 300px; /* Distance from the top */
-    left: 220px; /* Distance from the left */
+    top: 350px; /* Distance from the top */
+    left: 240px; /* Distance from the left */
     z-index: 999; /* Ensure it's above other content */
 }
 
