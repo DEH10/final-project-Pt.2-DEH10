@@ -8,7 +8,7 @@ html, body, header, main, footer {
 /* Styling header section */
 header {
     background-color: #1b5785fe; /* Change to blue background color */
-    padding: 90px;
+    padding: 40px;
     text-align: right;
     position: relative; /* Positioning for absolute centering of buttons */
 }
