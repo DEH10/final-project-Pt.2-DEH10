@@ -28,8 +28,7 @@ header {
     font-size: 18px;
     color: #ffffff; /* Change to white text color */
     margin-bottom: 10px;
-    padding: 10px; /* Add padding for spacing */
-    background-color: #48a2f1; /* Blue background color */
+    padding: 0px; /* Add padding for spacing */
     border-radius: 10px; /* Add border radius */
     display: block; /* Display as block to allow soft wrapping */
     width: auto; /* Remove fixed width */
@@ -352,14 +351,14 @@ section {
 
 /* Styling footer section */
 .footer-section {
-    background-color: #4141edfe; /* Replace #yourFooterColor with the desired color code */
+    background-color: #3b3bebfe; /* Replace #yourFooterColor with the desired color code */
     padding: 20px; /* Adjust padding as needed */
     text-align: center; /* Center align the content */
     color: black; /* Set text color to black */
 }
 
 .bottom-footer {
-    background-color: rgb(248, 240, 240; /* Set background color to white */
+    background-color: rgb(248, 240, 240); /* Set background color to white */
     padding: 20px; /* Adjust padding as needed */
     text-align: center; /* Center align the content */
 }
@@ -400,22 +399,24 @@ footer a img {
 
 .navigation-buttons {
     position: absolute; /* Keep the div fixed in its position */
-    top: 310px; /* Align the div 100px below the top of the viewport */
-    left: 580px; /* Align the div horizontally to the center */
+    top: 285px; /* Align the div 100px below the top of the viewport */
+    left: 570px; /* Align the div horizontally to the center */
     transform: translateX(-50%); /* Center the div horizontally */
     z-index: 999; /* Ensure it's above other content */
-    text-align: center; /* Center align the text */
-
 }
 
 .navigation-buttons button {
     margin: 0 10px; /* Add spacing between buttons */
+    border: none; /* Remove borders */
+    color: #f0efef; /* Set text color to black */
+    font-weight: bold; /* Set font weight to bold */
+    background-color: transparent; /* Remove background color */
 }
 
-/* App Store Buttons */
+/* App Store and Google Play Buttons Container */
 .app-store-buttons {
     position: absolute; /* Position relative to the header */
-    top: 230px; /* Distance from the top */
+    top: 210px; /* Distance from the top */
     left: 90px; /* Distance from the left */
     z-index: 999; /* Ensure it's above other content */
 }
