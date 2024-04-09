@@ -348,11 +348,17 @@ section {
 }
 
 /* Styling footer section */
-footer {
-    background-color: #0074D9; /* Set background color */
-    color: #fff; /* Setting text color */
-    padding: 40px; /* Setting padding */
-    text-align: center; /* Centering text */
+.footer-section {
+    background-color: #3e35e1fe; /* Replace #yourFooterColor with the desired color code */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center align the content */
+    color: black; /* Set text color to black */
+}
+
+.bottom-footer {
+    background-color: white; /* Set background color to white */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center align the content */
 }
 
 footer p {
