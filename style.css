@@ -147,10 +147,10 @@ section {
 }
 
 #donations-content .paragraph img {
-    max-width: 100px; /* Adjust maximum width */
-    height: 200px; /* Set image height to auto */
-    margin-right: 20px; /* Adjust margin */
+    max-width: 200px; /* Adjust maximum width */
+    margin-right: -250px; /* Adjust margin */
     margin-top: 20px; /* Move the image up by adjusting the top margin */
+    margin-bottom: 320px;
 }
 
 
@@ -160,7 +160,7 @@ section {
     align-items: flex-start; /* Align divs horizontally */
     gap: 20px; /* Add space between divs */
     margin-left: 90px; /* Add left margin */
-    margin-top: -350px; /* Move the image up by adjusting the top margin */
+    margin-top: -530px; /* Move the image up by adjusting the top margin */
 }
 
 .Rectangle {
@@ -406,7 +406,7 @@ footer a img {
 
 .navigation-buttons {
     position: absolute; /* Keep the div fixed in its position */
-    top: 650px; /* Align the div 100px below the top of the viewport */
+    top: 7250px; /* Align the div 100px below the top of the viewport */
     left: 530px; /* Align the div horizontally to the center */
     transform: translateX(-50%); /* Center the div horizontally */
     z-index: 999; /* Ensure it's above other content */
