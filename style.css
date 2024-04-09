@@ -160,7 +160,7 @@ section {
     align-items: flex-start; /* Align divs horizontally */
     gap: 20px; /* Add space between divs */
     margin-left: 90px; /* Add left margin */
-    margin-top: -530px; /* Move the image up by adjusting the top margin */
+    margin-top: -250px; /* Move the image up by adjusting the top margin */
 }
 
 .Rectangle {
