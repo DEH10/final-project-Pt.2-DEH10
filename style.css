@@ -37,7 +37,7 @@ header p {
 }
 .logo-container {
     position: relative;
-    top: -200px; /* Adjust as needed to move it up */
+    top: -100px; /* Adjust as needed to move it up */
     left: 0px; /* Adjust as needed to move it horizontally */
     margin-right: 60px; /* Adjust margin */
 }
@@ -149,7 +149,7 @@ section {
 #donations-content .paragraph img {
     max-width: 100px; /* Adjust maximum width */
     margin-right: 20px; /* Adjust margin */
-    margin-top: -20px; /* Move the image up by adjusting the top margin */
+    margin-top: 20px; /* Move the image up by adjusting the top margin */
 }
 
 
