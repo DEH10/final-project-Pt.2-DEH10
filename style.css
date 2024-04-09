@@ -7,7 +7,7 @@ html, body, header, main, footer {
 
 /* Styling header section */
 header {
-    background-color: #4141edf; /* Change to blue background color */
+    background-color: #4141edfe; /* Change to blue background color */
     padding: 40px;
     text-align: right;
     position: relative; /* Positioning for absolute centering of buttons */
@@ -367,7 +367,7 @@ section {
 
 /* Styling footer section */
 .footer-section {
-    background-color: #4141edf; /* Replace #yourFooterColor with the desired color code */
+    background-color: #4141edfe; /* Replace #yourFooterColor with the desired color code */
     padding: 20px; /* Adjust padding as needed */
     text-align: center; /* Center align the content */
     color: black; /* Set text color to black */
