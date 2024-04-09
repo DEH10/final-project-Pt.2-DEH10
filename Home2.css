@@ -7,7 +7,7 @@ html, body, header, main, footer {
 
 /* Styling header section */
 header {
-    background-color: #48a2f1; /* Change to blue background color */
+    background-color: #4141edf; /* Change to blue background color */
     padding: 90px;
     text-align: left; /* Adjusted to left alignment */
     position: relative; /* Positioning for absolute centering of buttons */
@@ -248,11 +248,11 @@ section {
 }
 
 #expect-great-things h2 {
-    color: #0b3d91; /* Darker shade of baby blue for header */
+    color: #4141edf; /* Darker shade of baby blue for header */
 }
 
 #expect-great-things p {
-    color: darkred; /* Dark red color for the paragraph */
+    color: Black; /* Dark red color for the paragraph */
 }
 
 .three-divs {
@@ -349,7 +349,7 @@ section {
 
 /* Styling footer section */
 .footer-section {
-    background-color: #3e35e1fe; /* Replace #yourFooterColor with the desired color code */
+    background-color: #4141edf; /* Replace #yourFooterColor with the desired color code */
     padding: 20px; /* Adjust padding as needed */
     text-align: center; /* Center align the content */
     color: black; /* Set text color to black */
