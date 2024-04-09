@@ -37,7 +37,7 @@ header p {
 }
 .logo-container {
     position: relative;
-    top: -50px; /* Adjust as needed to move it up */
+    top: 250px; /* Adjust as needed to move it up */
     left: 0px; /* Adjust as needed to move it horizontally */
     margin-right: 60px; /* Adjust margin */
 }
