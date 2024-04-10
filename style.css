@@ -8,13 +8,13 @@ html, body, header, main, footer {
 /* Styling header section */
 header {
     background-color: #4141edfe; /* Change to blue background color */
-    padding: 90px;
+    padding: 15px;
     text-align: right;
     position: relative; /* Positioning for absolute centering of buttons */
 }
 
 header h1 {
-    font-size: px;
+    font-size: 60px;
     color: #ffffff; /* Change to white text color */
     margin-bottom: 10px;
     text-align: left; /* Adjusted to left alignment */
@@ -31,8 +31,8 @@ header p {
   color: #ffffff; /* Change to white text color */
   margin-bottom: 1px;
   text-align: left; /* Adjusted to left alignment */
-  margin-left: 145px; /* Adding a margin to push it to the left */
-  margin-right: 680px; /* Adjust margin */
+  margin-left: 15px; /* Adding a margin to push it to the left */
+  margin-right: 590px; /* Adjust margin */
   
 }
 .logo-container {
@@ -44,7 +44,8 @@ header p {
 
 .logo-container img {
     width: 350px; /* Adjust the width to make it wider */
-    height: 650px; /* Adjust the height to make it taller */
+    height: 550px; /* Adjust the height to make it taller */
+    margin-top: -260px; /* Adjust location of header image */
 }
 
 /* Navigation Buttons Container */
