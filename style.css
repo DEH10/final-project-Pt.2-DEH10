@@ -427,7 +427,7 @@ footer a img {
 .navigation-buttons button {
     margin: 0 10px; /* Add spacing between buttons */
     border: none; /* Remove borders */
-    color: #000; /* Set text color to black */
+    color: #fff; /* Set text color to black */
     font-weight: bold; /* Set font weight to bold */
     background-color: transparent; /* Remove background color */
 }
