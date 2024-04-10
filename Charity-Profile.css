@@ -185,4 +185,6 @@ body.show-footer footer {
 .background-image {
     position: relative;
     margin-top: -340px; /* Adjust this value to create space at the top */
+    left: 50%; /* Move the image 50% from the left edge */
+    transform: translateX(-50%); /* Center the image horizontally */
 }
