@@ -18,7 +18,7 @@ header h1 {
     color: #ffffff; /* Change to white text color */
     margin-bottom: 10px;
     text-align: left; /* Adjusted to left alignment */
-    margin-left: 5px; /* Adding a margin to push it to the left */
+    margin-left: 35px; /* Adding a margin to push it to the left */
 }
 
 .box-container {
@@ -31,7 +31,7 @@ header p {
   color: #ffffff; /* Change to white text color */
   margin-bottom: 1px;
   text-align: left; /* Adjusted to left alignment */
-  margin-left: 145px; /* Adding a margin to push it to the left */
+  margin-left: 35px; /* Adding a margin to push it to the left */
   margin-right: 590px; /* Adjust margin */
   
 }
@@ -45,7 +45,7 @@ header p {
 .logo-container img {
     width: 350px; /* Adjust the width to make it wider */
     height: 550px; /* Adjust the height to make it taller */
-    margin-top: -180px; /* Adjust location of header image */
+    margin-top: -90px; /* Adjust location of header image */
 }
 
 /* Navigation Buttons Container */
@@ -418,7 +418,7 @@ footer a img {
 
 .navigation-buttons {
     position: absolute; /* Keep the div fixed in its position */
-    top: 850px; /* Align the div 100px below the top of the viewport */
+    top: 425px; /* Align the div 100px below the top of the viewport */
     left: 530px; /* Align the div horizontally to the center */
     transform: translateX(-50%); /* Center the div horizontally */
     z-index: 999; /* Ensure it's above other content */
