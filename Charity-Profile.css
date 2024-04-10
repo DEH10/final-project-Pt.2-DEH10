@@ -51,7 +51,7 @@ header img {
     height: 20px; /* Maintain aspect ratio */
     display: block; /* Remove extra space */
     margin: 0 auto 20px; /* Center the image horizontally and add margin below */
-    max-height: 10px; /* Adjust the maximum height */
+    
 }
 
 /* Charity Profile Description Section styles */
