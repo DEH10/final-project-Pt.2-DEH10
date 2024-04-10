@@ -8,17 +8,17 @@ html, body, header, main, footer {
 /* Styling header section */
 header {
     background-color: #4141edfe; /* Change to blue background color */
-    padding: 15px;
+    padding: 55px;
     text-align: right;
     position: relative; /* Positioning for absolute centering of buttons */
 }
 
 header h1 {
-    font-size: 60px;
+    font-size: 45px;
     color: #ffffff; /* Change to white text color */
     margin-bottom: 10px;
     text-align: left; /* Adjusted to left alignment */
-    margin-left: 140px; /* Adding a margin to push it to the left */
+    margin-left: 5px; /* Adding a margin to push it to the left */
 }
 
 .box-container {
@@ -31,7 +31,7 @@ header p {
   color: #ffffff; /* Change to white text color */
   margin-bottom: 1px;
   text-align: left; /* Adjusted to left alignment */
-  margin-left: 15px; /* Adding a margin to push it to the left */
+  margin-left: 145px; /* Adding a margin to push it to the left */
   margin-right: 590px; /* Adjust margin */
   
 }
@@ -45,7 +45,7 @@ header p {
 .logo-container img {
     width: 350px; /* Adjust the width to make it wider */
     height: 550px; /* Adjust the height to make it taller */
-    margin-top: -260px; /* Adjust location of header image */
+    margin-top: -180px; /* Adjust location of header image */
 }
 
 /* Navigation Buttons Container */
@@ -436,7 +436,7 @@ footer a img {
 .app-store-buttons {
     position: absolute; /* Position relative to the header */
     top: 450px; /* Distance from the top */
-    left: 240px; /* Distance from the left */
+    left: 100px; /* Distance from the left */
     z-index: 999; /* Ensure it's above other content */
 }
 
