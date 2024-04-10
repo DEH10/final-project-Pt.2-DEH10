@@ -432,15 +432,15 @@ footer a img {
     background-color: transparent; /* Remove background color */
 }
 
-/* App Store and Google Play Buttons Container */
 .app-store-buttons {
     position: absolute; /* Position relative to the header */
     top: 300px; /* Distance from the top */
     left: 100px; /* Distance from the left */
     z-index: 999; /* Ensure it's above other content */
+    width: 170px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
 }
 
-/* Optional hover effect */
 .app-store-buttons:hover {
     /* Add hover effect styles if needed */
 }
