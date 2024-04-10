@@ -209,7 +209,7 @@ section {
 .additional-divs .steadfast,
 .additional-divs .user-friendly {
     width: 150px; /* Set width for each div */
-    padding: 10px; /* Set padding */
+    padding: 0px; /* Set padding */
     background-color: #ffffff; /* Set background color */
     border-radius: 10px; /* Set border radius */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
@@ -247,7 +247,7 @@ section {
 }
 
 #expect-great-things h2 {
-    color: #4141edf; /* Darker shade of baby blue for header */
+    color: Black; /* Dark red color for the paragraph */
 }
 
 #expect-great-things p {
