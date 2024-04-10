@@ -45,7 +45,7 @@ header p {
 .logo-container img {
     width: 350px; /* Adjust the width to make it wider */
     height: 550px; /* Adjust the height to make it taller */
-    margin-top: -90px; /* Adjust location of header image */
+    margin-top: -45px; /* Adjust location of header image */
 }
 
 /* Navigation Buttons Container */
@@ -418,7 +418,7 @@ footer a img {
 
 .navigation-buttons {
     position: absolute; /* Keep the div fixed in its position */
-    top: 425px; /* Align the div 100px below the top of the viewport */
+    top: 650px; /* Align the div 100px below the top of the viewport */
     left: 530px; /* Align the div horizontally to the center */
     transform: translateX(-50%); /* Center the div horizontally */
     z-index: 999; /* Ensure it's above other content */
@@ -435,7 +435,7 @@ footer a img {
 /* App Store and Google Play Buttons Container */
 .app-store-buttons {
     position: absolute; /* Position relative to the header */
-    top: 450px; /* Distance from the top */
+    top: 400px; /* Distance from the top */
     left: 100px; /* Distance from the left */
     z-index: 999; /* Ensure it's above other content */
 }
