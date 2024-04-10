@@ -69,7 +69,7 @@ header img {
 }
 
 #charity-description {
-    max-width: 800px; /* Set max-width to wrap the text */
+    max-width: 500px; /* Set max-width to wrap the text */
     margin: 0 auto; /* Center the section horizontally */
     
 }
@@ -154,7 +154,22 @@ body.show-footer footer {
     bottom: 0;
 }
 
+/* Navigation Buttons */
+.navigation-buttons {
+    position: absolute;
+    top: 0;
+    right: 60px; /* Adjust the distance from the right as needed */
+    z-index: 999;
+}
 
+.navigation-buttons button {
+    background-color: transparent;
+    border: none;
+    color: #0b0b0b;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+}
 
 /* Search Button */
 #search-button {
