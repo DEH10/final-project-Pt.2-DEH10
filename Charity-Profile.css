@@ -15,18 +15,15 @@ body {
     line-height: 1.6;
     background-color: #f9f9f9;
     color: #000000;
-    margin: 0;
-    padding: 0;
 }
 
 /* Header styles */
 header {
     background-color: #f0eaea;
-    color: #fff;
+    color: #000000;
     padding: 20px;
     text-align: center;
-    position: relative; /* Add position relative */
-    color: #000000; /* Set text color to black */
+    position: absolute;
 }
 
 /* Navigation button styles */
@@ -39,39 +36,32 @@ header {
 .navigation-buttons button {
     background-color: transparent;
     border: none;
-    color: #0c0b0b;
+    color: #da1313;
     cursor: pointer;
     font-size: 16px;
     margin-right: 5px; /* Adjust margin-right */
 }
 
 /* Background Image of City Buildings */
-header img {
-    max-width: 100%; /* Limit the maximum width of the image */
-    height: 20px; /* Maintain aspect ratio */
-    display: block; /* Remove extra space */
-    margin: 0 auto 20px; /* Center the image horizontally and add margin below */
-    
-}
+
 
 /* Charity Profile Description Section styles */
 #CharityProfileDescription {
-    position: relative; /* Change position to relative */
-    text-align: left; /* Center align the content */
-    padding: 20px; /* Adjust padding to hug the content */
-    margin: 0 auto; /* Center the box horizontally */
-    margin-top: 370px; /* Adjust margin top to move it further down */
-    border: 2px solid white; /* Add border with solid white color */
-    border-radius: 5px; /* Add border radius for rounded corners */
-    background-color: rgba(255, 255, 255, 0.892); /* Add background color with opacity */
-    max-width: fit-content; /* Set maximum width to fit the content */
-    color: #000000; /* Set text color to black */
+    position: relative;
+    text-align: left;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 370px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.892);
+    max-width: fit-content;
+    color: #000000;
 }
 
 #charity-description {
-    max-width: 500px; /* Set max-width to wrap the text */
-    margin: 0 auto; /* Center the section horizontally */
-    
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 #charity-description h1 {
@@ -80,7 +70,7 @@ header img {
 
 #charity-description p {
     margin-bottom: 20px;
-    text-align: justify; /* Justify the text for a neat appearance */
+    text-align: justify;
 }
 
 #charity-description button {
@@ -89,13 +79,12 @@ header img {
     color: #3f1616;
     cursor: pointer;
     padding: 10px 20px;
-    margin-top: -50px; /* Adjust margin top to move it further down */
+    margin-top: -50px;
 }
 
 #charity-description button:hover {
     background-color: #555;
 }
-
 
 /* Related Articles Section styles */
 #news-info {
@@ -103,23 +92,22 @@ header img {
     background-color: #fff;
     border-top: 1px solid #ccc;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr)); /* Adjust the min and max width */
-    gap: 5px; /* Add gap between grid items */
-    grid-auto-rows: auto; /* Set the height of the rows to auto */
-    margin-top: 20px; /* Adjust the margin-top to create space between this section and the header */
-    
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    gap: 5px;
+    grid-auto-rows: auto;
+    margin-top: 20px;
 }
 
 .articles-header {
-    background-color: #ffffff; /* Set background color to white */
-    color: #000000; /* Set text color to black */
-    padding: 10px; /* Add padding for better spacing */
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
 }
 
 .news-item {
-    background-color: #f9f9f9; /* Background color for each box */
+    background-color: #f9f9f9;
     padding: 20px;
-    border-radius: 5px; /* Add border radius for rounded corners */
+    border-radius: 5px;
 }
 
 .news-item h3 {
@@ -131,10 +119,10 @@ header img {
 }
 
 .news-item img {
-    max-width: 100%; /* Make the image fill its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove extra space below image */
-    border-radius: 5px; /* Add border radius for rounded corners */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
 }
 
 /* Footer styles */
@@ -144,9 +132,9 @@ footer {
     text-align: center;
     padding: 20px;
     position: relative;
-    bottom: -100px; /* Initially hide the footer */
+    bottom: -100px;
     width: 100%;
-    transition: bottom 0.3s ease; /* Add smooth transition */
+    transition: bottom 0.3s ease;
 }
 
 /* Show the footer when it's at the end of the content */
@@ -171,28 +159,30 @@ body.show-footer footer {
     margin-right: 20px;
 }
 
+
+
 /* Search Button */
 #search-button {
-    position: absolute; /* Absolute position */
-    top: 0px; /* Distance from the top */
-    right: 3px; /* Distance from the right */
-    background-color: #89CFF0; /* Baby blue background */
-    color: #fff; /* White text */
-    padding: 5px 7px; /* Reduced padding */
-    font-size: 14px; /* Reduced font size */
-    border: none; /* No border */
-    border-radius: 3px; /* Rounded corners */
-    cursor: pointer; /* Cursor style */
-    z-index: 999; /* Ensure it's above other content */
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    background-color: #89CFF0;
+    color: #fff;
+    padding: 5px 7px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    z-index: 999;
 }
 
 /* Optional hover effect */
 #search-button:hover {
-    background-color: #5DADE2; /* Darker shade of blue on hover */
+    background-color: #5DADE2;
 }
 
 /* New background image class */
 .background-image {
     position: relative;
-    margin-top: -300px; /* Adjust this value to create space at the top */
+    margin-top: -340px; /* Adjust this value to create space at the top */
 }
