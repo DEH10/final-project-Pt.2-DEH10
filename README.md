@@ -6,6 +6,4 @@ Final-Project Prototype Presentations with HTML and CSS and Javascript embedded 
 
 The user's ability to "contact" the organization navigates the user to an "About us" section that says "Lets work together". This offers the users a "Contact Number, Contact Address and Contact Email and Live Map". This page also offers the user to enter their information and problem description they need help on. These elemnts are also apart of the website's fully accessible prototype, which scrolls to the appropriate section for all links as does the website and website framework. 
 
-Click the link below to use the websites working prototype -->
-
 Click the link to use the websites working prototype --> [![Homepage Wireframe](https://img.shields.io/badge/Help-Hub-gold)](https://mockitt.wondershare.com/proto/KL4glsqisb0h8abrjoBnPt/sharing?view_mode=device&screen=rbpU8Kle1LgqQFc3J&canvasId=rcU8Kle1TpAyPOKL)
