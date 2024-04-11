@@ -4,6 +4,24 @@ Final-Project Prototype Presentations with HTML and CSS and Javascript embedded 
 
 (Website works like a normal website (e.g. Homepage link, AboutUs link, Contact link, App store button, Google Play button, Charities List nav link., Charity Profile nav link., Volunteer Now button and user information typing.. etc):
 
-The user's ability to "contact" the organization navigates the user to an "About us" section that says "Lets work together". This offers the users a "Contact Number, Contact Address and Contact Email and Live Map". This page also offers the user to enter their information and problem description they need help on. These elemnts are also apart of the website's fully accessible prototype, which scrolls to the appropriate section for all links as does the website and website framework. 
+/* Contact Section */
 
-Click the link to use the websites working prototype --> [![Homepage Wireframe](https://img.shields.io/badge/Help-Hub-gold)](https://mockitt.wondershare.com/proto/KL4glsqisb0h8abrjoBnPt/sharing?view_mode=device&screen=rbpU8Kle1LgqQFc3J&canvasId=rcU8Kle1TpAyPOKL)
+The user's ability to "contact" the organization leads to an "About Us" section titled "Let's work together".
+This section includes:
+- Contact Number
+- Contact Address
+- Contact Email
+- Live Map for locating charities by location.
+
+Second Half of "About Us" Page:
+
+The latter part of the "About Us" page enables users to:
+- Enter their information
+- Describe the problem they need help with
+- Specify the type of project they have in mind.
+  
+Accessibility and Navigation:
+- These elements are integral parts of the website's fully accessible prototype.
+- The website and its framework allow smooth scrolling to the appropriate sections for all links.
+
+Click the link here to use the websites working prototype --> [![Homepage Wireframe](https://img.shields.io/badge/Help-Hub-gold)](https://mockitt.wondershare.com/proto/KL4glsqisb0h8abrjoBnPt/sharing?view_mode=device&screen=rbpU8Kle1LgqQFc3J&canvasId=rcU8Kle1TpAyPOKL)
