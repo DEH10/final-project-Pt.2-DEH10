@@ -1,6 +1,6 @@
 # final-project-Pt.2-DEH10
 
-Final-Project Prototype Presentations with HTML and CSS and Javascript embedded files:
+Final-Project Prototype Presentations with HTML, CSS and Javascript embedded files:
 
 (Website works like a normal website (e.g. Homepage link, AboutUs link, Contact section, App store button, Google Play button, Charities List page., Charity Profile page, Volunteer Now button, Google map and user information typing.. etc):
 
