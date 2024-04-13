@@ -188,10 +188,3 @@ body.show-footer footer {
     left: 50%; /* Move the image 50% from the left edge */
     transform: translateX(-50%); /* Center the image horizontally */
 }
-
-/* Add this CSS rule to float the Volunteer Now button to the right */
-#volunteer-button {
-    float: right;
-    margin-top: -40px; /* Adjust this value as needed */
-    margin-right: 145px; /* Adjust this value as needed */
-}
